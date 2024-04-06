@@ -8,7 +8,7 @@
 // @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
 // @require      https://raw.githubusercontent.com/Palminator100/Test4/main/anchor-browserified.js
 // @require      https://raw.githubusercontent.com/Palminator100/Test4/main/buffer-browserified.js
-// @require      https://raw.githubusercontent.com/Palminator100/Test4/bs58-browserified.js
+// @require      https://raw.githubusercontent.com/Palminator100/Test4/main/bs58-browserified.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=staratlas.com
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -25,8 +25,8 @@
 	let customWriteRPCs = [];
 
     let saRPCs = [
-		'https://rpc.hellomoon.io/12a1932f-f069-49a7-ad44-4ca8148149d6', //Hello Moon
-	];
+        		'https://rpc.hellomoon.io/12a1932f-f069-49a7-ad44-4ca8148149d6', //Hello Moon
+    	];
     let readRPCs = customReadRPCs.concat(saRPCs);
     let writeRPCs = customWriteRPCs.concat(saRPCs);
 
