@@ -19,9 +19,7 @@
 	'use strict';
 
 	//Used for reading solana data
-	let customReadRPCs = [
-		'https://rpc.hellomoon.io/12a1932f-f069-49a7-ad44-4ca8148149d6',
-	];
+	let customReadRPCs = [];
 
 	//Used for pushing transactions to solana chain
 	let customWriteRPCs = [
